@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!-- Codigo de muestra para un curso introductorio a la programación (hipoteticamente) -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Mugiwara</title>
+    <!-- Icono -->
+    <link rel="shortcut icon"
+        href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEVicedb3w3TCccD4xVR9ORRH5E3_POP2DqNj-6o9UsWfI8y4gCXWtuL_eW7jwXwqvt4kxkf3uQkileVNV7EFtt-rihk6OXCfu7EHshiCmsvNrf7aF4DAIym3fnlH_xceonTrWU-pD2RI/s1600/Logo+Dream+League+Soccer+Topi+Jerami.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/692ff1e671.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="pt-5 bg-dark">
+    <nav class="navbar fixed-top bg-warning-subtle navbar-expand-lg" data-bs-theme="dark">
+        <div class="container-fluid">
+            <!-- <a class="navbar-brand" href="#Inicio">Portfolio - Cristian Peña</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav"> <!-- Menu de navegación -->
+                <ul class="navbar-nav align-items-center align-items-center">
+                    <li class="nav-item mx-2"><a class="nav-link" href="#Inicio">Inicio</a></li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false"> Mugiwaras
+                        </a>
+                        <ul class="dropdown-menu"> <!-- Tripulacion -->
+                            <li><a class="dropdown-item" href="#Luffy">Monkey D. Luffy</a></li>
+                            <li><a class="dropdown-item" href="#Zoro">Roronoa Zoro</a></li>
+                            <li><a class="dropdown-item" href="#Nami">Nami</a></li>
+                            <li><a class="dropdown-item" href="#Usopp">Usopp</a></li>
+                            <li><a class="dropdown-item" href="#Sanji">Sanji</a></li>
+                            <li><a class="dropdown-item" href="#Chopper">Tony Tony Chopper</a></li>
+                            <li><a class="dropdown-item" href="#Robin">Nico Robin</a></li>
+                            <li><a class="dropdown-item" href="#Franky">Franky</a></li>
+                            <li><a class="dropdown-item" href="#Brook">Brook</a></li>
+                            <li><a class="dropdown-item" href="#Jimbei">Jinbei</a></li>
+                            <li><a class="dropdown-item" href="#Vivi">Nefertari Vivi</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mx-2"><img
+                            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEVicedb3w3TCccD4xVR9ORRH5E3_POP2DqNj-6o9UsWfI8y4gCXWtuL_eW7jwXwqvt4kxkf3uQkileVNV7EFtt-rihk6OXCfu7EHshiCmsvNrf7aF4DAIym3fnlH_xceonTrWU-pD2RI/s1600/Logo+Dream+League+Soccer+Topi+Jerami.png"
+                            alt="Logo_Mugiwaras" style="height: 60px;"></li>
+                    <li class="nav-item mx-2"><a class="nav-link" href="#Barcos">Barcos</a></li>
+                    <li class="nav-item mx-2"><a class="nav-link" href="#Flota">Piratas aliados</a></li>
+                    <!-- <li class="nav-item"><a href="#Contact">Contacto</a></li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <article id="Inicio" class="container-fluid bg-body-secondary py-5 text-white" data-bs-theme="dark">
+            <section id="About_Mugiwaras">
+                <div class="container text-center">
+                    <img src="https://i.pinimg.com/736x/e6/d9/b0/e6d9b0566941e4482e7610859293a6c9.jpg" alt="Mugiwaras">
+                    <h1 class="py-4">One Piece: La tripulación de los mugiwaras</h1>
+                    <div class="text-start pb-5">
+                        <h7 class="fs-5">Es una tripulación de piratas liderada por Monkey D. Luffy. A lo largo de su
+                            viaje, han reclutado a varios miembros únicos y poderosos, cada uno con habilidades y
+                            personalidades distintas. En esta página, exploraremos los personajes que componen la
+                            tripulación, sus barcos y las tripulaciones aliadas que han encontrado en su aventura.</h7>
+
+                    </div>
+                </div>
+
+
+
+            </section>
+            <!-- Inicio Mugiwaras section -->
+            <section id="Mugiwaras">
+                <!-- Use colores de bootstrap y de css con style por temas de diseño -->
+                <h2 class="p-5 text-center" data-bs-theme="dark">
+                    Tripulación</h2>
+                <!-- Luffy -->
+                <div id="Luffy" class="card mt-3 py-5 mx-5" style="background-color: #440000;">
+                    <div class="row g-0">
+                        <div class="col-md-3 mx-5">
+                            <img src="https://i.pinimg.com/736x/8c/51/ee/8c51eece904f03db6642509dce36f663.jpg"
+                                class="img-fluid rounded-circle border border-4 border-dark" alt="Luffy"
+                                style="height: 250px;">
+                        </div>
+                        <div class="col-md-7 container justify-content-center">
+
+                            <div class="card-body">
+                                <div class="text-center pb-4">
+                                    <h5 class="card-title">Monkey D. Luffy</h5>
+                                    <h6>Sombrero de Paja</h6>
+                                </div>
+                                <p class="card-text text-start">
+                                    Es el capitán y fundador de los Piratas de Sombrero de Paja, así como uno de los
+                                    Cuatro Emperadores
+                                    que gobiernan los mares del Nuevo Mundo. Comió una fruta del diablo llamada fruta
+                                    Gomu Gomu, que lo
+                                    convirtió en un hombre de goma. Además, posee habilidades como el haoshoku haki, el
+                                    cual sólo una
+                                    persona entre un millón puede usar.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Zoro -->
+                <div id="Zoro" class="card my-3 py-5 mx-5 bg-success-subtle">
+                    <div class="row g-0">
+                        <div class="col-md-7 container justify-content-center">
+
+                            <div class="card-body">
+                                <div class="text-center pb-4">
+                                    <h5 class="card-title">Roronoa Zoro</h5>
+                                    <h6>Cazador de Piratas</h6>
+                                </div>
+                                <p class="card-text text-start">
+                                    Es el espadachín de los Piratas de Sombrero de Paja y uno de sus miembros más
+                                    fuertes. Su estilo de
+                                    pelea "Santoryu" le permite manejar tres espadas al mismo tiempo. Su sueño es
+                                    convertirse en el
+                                    mejor espadachín del mundo.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mx-5">
+                            <img src="https://i.pinimg.com/736x/cf/47/66/cf4766fed4ec1b6116415271af89bb96.jpg"
+                                class="img-fluid rounded-circle border border-4 border-dark" alt="Roronoa Zoro"
+                                style="height: 250px;">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nami -->
+                <div id="Nami" class="card my-3 py-5 mx-5 bg-warning-subtle">
+                    <div class="row g-0">
+                        <div class="col-md-3 mx-5">
+                            <img src="https://i.pinimg.com/736x/a7/f9/77/a7f977665e2bc842f96c24947b05a018.jpg"
+                                class="img-fluid rounded-circle border border-4 border-dark" alt="Nami"
+                                style="height: 250px;">
+                        </div>
+                        <div class="col-md-7 container justify-content-center">
+
+                            <div class="card-body">
+                                <div class="text-center pb-4">
+                                    <h5 class="card-title">Nami</h5>
+                                    <h6>La Gata Ladrona</h6>
+                                </div>
+                                <p class="card-text text-start">
+                                    Es la navegante de los Piratas de Sombrero de Paja. Su habilidad para interpretar
+                                    mapas y predecir
+                                    el clima es excepcional. Sueña con dibujar un mapa completo del mundo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Usopp -->
+                <div id="Usopp" class="card my-3 py-5 mx-5 bg-info-subtle">
+                    <div class="row g-0">
+                        <div class="col-md-7 container justify-content-center">
+
+                            <div class="card-body">
+                                <div class="text-center pb-4">
+                                    <h5 class="card-title">Usopp</h5>
+                                    <h6>God Usopp</h6>
+                                </div>
+                                <p class="card-text text-start">
+                                    Es el francotirador de los Piratas de Sombrero de Paja. Es conocido por sus grandes
+                                    habilidades con
+                                    la honda y por su gran imaginación, que a menudo lo mete en problemas. Sueña con ser
+                                    un valiente
+                                    guerrero del mar.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mx-5">
+                            <img src="https://i.pinimg.com/736x/ba/d0/08/bad008ff01171056464cc885f1d98247.jpg"
+                                class="img-fluid rounded-circle border border-4 border-dark" alt="Usopp"
+                                style="height: 250px;">
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sanji -->
+                <div id="Sanji" class="card my-3 py-5 mx-5 bg-primary-subtle">
+                    <div class="row g-0">
+                        <div class="col-md-3 mx-5">
+                            <img src="https://i.pinimg.com/736x/b1/b8/ed/b1b8ed4d947adaca0346417129bb6827.jpg"
+                                class="img-fluid rounded-circle border border-4 border-dark" alt="Sanji"
+                                style="height: 250px;">
+                        </div>
+                        <div class="col-md-7 container justify-content-center">
+
+                            <div class="card-body">
+                                <div class="text-center pb-4">
+                                    <h5 class="card-title">Sanji</h5>
+                                    <h6>Pierna Negra</h6>
+                                </div>
+                                <p class="card-text text-start">
+                                    Es el cocinero de los Piratas de Sombrero de Paja. Su sueño es encontrar el
+                                    legendario mar All Blue,
+                                    donde convergen todos los peces del mundo. Su estilo de pelea se basa únicamente en
+                                    el uso de sus
+                                    piernas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chopper -->
+                <div id="Chopper" class="card my-3 py-5 mx-5" style="background-color: #663962;">
+                    <div class="row g-0">
+                        <div class="col-md-7 container justify-content-center">
+
+                            <div class="card-body">
+                                <div class="text-center pb-4">
+                                    <h5 class="card-title">Tony Tony Chopper</h5>
+                                    <h6>El Amante del Algodón de Azúcar</h6>
+                                </div>
+                                <p class="card-text text-start">
+                                    Es el médico de los Piratas de Sombrero de Paja. Comió la fruta Hito Hito no Mi, lo
+                                    que le permite
+                                    transformarse en humano. Sueña con encontrar la cura para todas las enfermedades.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mx-5">
+                            <img src="https://i.pinimg.com/736x/c5/d3/ca/c5d3cace99ed1c5e0349c3b793a62393.jpg"
+                                class="img-fluid rounded-circle border border-4 border-dark" alt="Chopper"
+                                style="height: 250px;">
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Robin -->
+                <div id="Robin" class="card my-3 py-5 mx-5" style="background-color: #2d1555;">
+                    <div class="row g-0">
+                        <div class="col-md-3 mx-5">
+                            <img src="https://i.pinimg.com/736x/b0/5c/ef/b05cef274f9ccd218eb149447fd97279.jpg"
+                                class="img-fluid rounded-circle border border-4 border-dark" alt="Robin"
+                                style="height: 250px;">
+
+                        </div>
+                        <div class="col-md-7 container justify-content-center">
+                            <div class="card-body">
+                                <div class="text-center pb-4">
+                                    <h5 class="card-title">Nico Robin</h5>
+                                    <h6>La Niña Demonio</h6>
+                                </div>
+                                <p class="card-text text-start">
+                                    Es la arqueóloga de los Piratas de Sombrero de Paja. Comió la fruta Hana Hana no Mi,
+                                    que le permite
+                                    hacer florecer partes de su cuerpo en cualquier superficie. Sueña con descubrir la
+                                    verdadera
+                                    historia del mundo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Franky -->
+                <div id="Franky" class="card my-3 py-5 mx-5 bg-info-subtle">
+                    <div class="row g-0">
+                        <div class="col-md-7 container justify-content-center">
+                            <div class="card-body">
+                                <div class="text-center pb-4">
+                                    <h5 class="card-title">Franky</h5>
+                                    <h6>El Ciborg</h6>
+                                </div>
+                                <p class="card-text text-start">
+                                    Es el carpintero de los Piratas de Sombrero de Paja. Es un ciborg con habilidades
+                                    mecánicas
+                                    excepcionales. Fue quien construyó el Thousand Sunny, el barco actual de la
+                                    tripulación.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mx-5">
+                            <img src="https://i.pinimg.com/736x/86/e3/bd/86e3bd35ec6d21e69ef7f63d00fb2dda.jpg"
+                                class="img-fluid rounded-circle border border-4 border-dark" alt="Franky"
+                                style="height: 250px;">
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Brook -->
+                <div id="Brook" class="card my-3 py-5 mx-5 bg-dark-subtle">
+                    <div class="row g-0">
+                        <div class="col-md-3 mx-5">
+                            <img src="https://i.pinimg.com/736x/7a/56/33/7a563311267ee52a55bae59d6597fde3.jpg"
+                                class="img-fluid rounded-circle border border-4 border-dark" alt="Brook"
+                                style="height: 250px;">
+
+                        </div>
+                        <div class="col-md-7 container justify-content-center">
+                            <div class="card-body">
+                                <div class="text-center pb-4">
+                                    <h5 class="card-title">Brook</h5>
+                                    <h6>Soul King</h6>
+                                </div>
+                                <p class="card-text text-start">
+                                    Es el músico de los Piratas de Sombrero de Paja. Comió la fruta Yomi Yomi no Mi, lo
+                                    que le permitió
+                                    volver a la vida después de morir. Esqueleto viviente, su sueño es reunirse con
+                                    Laboon.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Jimbei -->
+                <div id="Jimbei" class="card my-3 py-5 mx-5  bg-primary-subtle  ">
+                    <div class="row g-0">
+                        <div class="col-md-7 container justify-content-center">
+                            <div class="card-body">
+                                <div class="text-center pb-4">
+                                    <h5 class="card-title">Jinbei</h5>
+                                    <h6>El Caballero del Mar</h6>
+                                </div>
+                                <p class="card-text text-start">
+                                    Es el timonel de los Piratas de Sombrero de Paja. Es un hombre pez con habilidades
+                                    en el karate
+                                    gyojin. Sueña con una coexistencia pacífica entre humanos y hombres pez.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mx-5">
+                            <img src="https://i.pinimg.com/736x/45/19/70/451970a866254776c65237945a0589f9.jpg"
+                                class="img-fluid rounded-circle border border-4 border-dark" alt="Jimbei"
+                                style="height: 250px;">
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vivi -->
+                <div id="Vivi" class="card my-3 py-5 mx-5" style="background-color: #1e5b63;">
+                    <div class="row g-1">
+                        <div class="col-md-3 mx-5">
+                            <img src="https://i.pinimg.com/736x/01/62/1a/01621ab307ba330b6778ec5a139cc2fb.jpg"
+                                class="img-fluid rounded-circle border border-4 border-dark" alt="Vivi"
+                                style="height: 250px;">
+
+                        </div>
+                        <div class="col-md-7 container justify-content-center">
+                            <div class="card-body">
+                                <div class="text-center pb-4">
+                                    <h5 class="card-title">Nefertari Vivi</h5>
+                                    <h6>Princesa de Arabasta</h6>
+                                </div>
+                                <p class="card-text text-start">
+                                    Aunque no es oficialmente parte de la tripulación, Vivi es una gran amiga de los
+                                    Sombrero de Paja.
+                                    Ayudó a salvar su reino, Arabasta, de la organización Baroque Works. Es amable,
+                                    valiente y siempre
+                                    piensa en su pueblo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </section>
+            <!-- Fin Mugiwaras section-->
+            <!-- Inicio Barcos section-->
+            <section id="Barcos">
+                <h2 class="m-5 pb-3 text-center">Barcos</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-5 justify-content-center">
+                    <div class="col px-5">
+                        <div class="card align-items-center mx-2 py-5">
+                            <img src="https://i.pinimg.com/736x/6f/f7/d5/6ff7d5589d6acebb3e582debc69ccccd.jpg "
+                                alt="Merry" class="card-img img-fluid" style="height: 300px; width: auto;">
+                            <div class="card-body px-5 mt-2">
+                                <h5 class="card-title text-center">Going Merry</h5>
+                                <p class="card-text">El primer barco de los Piratas de Sombrero de Paja, conocido por su
+                                    figura de carnero en la proa.</p>
+                            </div>
+                            <!-- <div class="card-footer">
+                                <small class="text-body-secondary">Destruido</small>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col px-5">
+                        <div class="card align-items-center mx-2 py-5">
+                            <img src="https://i.pinimg.com/736x/2d/f1/65/2df165ad1f1bec421570e7d60dc231b9.jpg"
+                                alt="Sunny" class="card-img img-fluid" style="height: 300px; width: auto;">
+                            <div class="card-body px-5 mt-2">
+                                <h5 class="card-title text-center">Thousand Sunny</h5>
+                                <p class="card-text">El segundo barco de los Piratas de Sombrero de Paja, diseñado por
+                                    Franky, con una figura de león en la proa.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- Fin Barcos section-->
+            <!-- Inicio Islas aliadas-->
+            <section id="Flota">
+                <div class="container py-5">
+                    <h2 class="text-center py-5">Tripulaciones y piratas aliados</h2>
+                    <p>En esta sección se encuentran los miembros de la gran flota de Luffy y otros destacables
+                        tripulaciones y piratas con los que tienen alianzas o vinculos.</p>
+
+                    <h3 class="py-5">Gran flota de los mugiwaras</h3>
+                    <div class="row row-cols-1 row-cols-md-4 g-4">
+                        <div class="col">
+                            <div class="card h-100 p-3">
+                                <img src="https://i.pinimg.com/736x/98/5f/50/985f50271e4bd4e4659b91d4dd41687d.jpg"
+                                    class="card-img-top" alt="Cavendish"
+                                    style="height: 300px; width: auto; object-fit: cover;">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Cavendish</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted ">Piratas Hermosos</h6>
+                                    <p class="card-text">Un príncipe exiliado y capitán de los Piratas Hermosos. Tiene
+                                        una personalidad
+                                        dividida, con su alter ego "Hakuba" siendo extremadamente peligroso.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 p-3">
+                                <img src="https://i.pinimg.com/736x/86/8e/95/868e95b408efdec65192639e46d7acb7.jpg"
+                                    class="card-img-top" alt="Bartolomeo"
+                                    style="height: 300px; width: auto; object-fit: cover;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bartolomeo</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Piratas Barto Club</h6>
+                                    <p class="card-text">Un gran fanático de los Mugiwara y capitán del Barto Club.
+                                        Posee la habilidad Bari Bari
+                                        no Mi, que le permite crear barreras indestructibles.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 p-3">
+                                <img src="https://i.pinimg.com/736x/a8/ad/ba/a8adba6d68dee1144f1046059a193849.jpg"
+                                    class="card-img-top" alt="Don Sai"
+                                    style="height: 300px; width: auto; object-fit: cover;">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Don Sai</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Happo Navy</h6>
+                                    <p class="card-text">Un maestro del arte del Hasshoken y actual líder de la Armada
+                                        Happo. Sucedió a su
+                                        abuelo Chinjao tras la batalla en Dressrosa.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 p-3">
+                                <img src="https://i.pinimg.com/736x/45/fc/71/45fc71a326751b1df89c7a9b609d4fb1.jpg"
+                                    class="card-img-top" alt="Ideo"
+                                    style="height: 300px; width: auto; object-fit: cover;">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Ideo</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Piratas Ideo</h6>
+                                    <p class="card-text">Un boxeador de clase mundial con una fuerza impresionante.
+                                        Lidera a los Piratas Ideo,
+                                        que incluyen a Blue Gilly, Abdullah y Jeet.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 p-3">
+                                <img src="https://i.pinimg.com/736x/e4/be/7e/e4be7ec8416bcce0bfd358d1affa9726.jpg"
+                                    class="card-img-top" alt="Leo"
+                                    style="height: 300px; width: auto; object-fit: cover;">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Leo</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Piratas Tontatta</h6>
+                                    <p class="card-text">Un miembro de la Tribu Tontatta y líder de los Piratas
+                                        Tontatta. Posee una fuerza
+                                        sorprendente para su tamaño y es leal a los Mugiwara.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 p-3">
+                                <img src="https://i.pinimg.com/736x/b0/3a/26/b03a266640ab7668937e2eabce4c33bb.jpg"
+                                    class="card-img-top" alt="Hajrudin"
+                                    style="height: 300px; width: auto; object-fit: cover;">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Hajrudin</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Nuevos Piratas Gigantes</h6>
+                                    <p class="card-text">Un gigante de Elbaf que lidera a los Nuevos Piratas Gigantes.
+                                        Sueña con restaurar la
+                                        gloria de su raza y tiene una deuda de gratitud con Luffy.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 p-3">
+                                <img src="https://i.pinimg.com/736x/76/40/18/76401841c54c005257212fe7229b9381.jpg"
+                                    class="card-img-top" alt="Orlumbus"
+                                    style="height: 300px; width: auto; object-fit: cover;">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Orlumbus</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Ejército Yonta Maria</h6>
+                                    <p class="card-text">Un estratega meticuloso y capitán del Ejército Yonta Maria.
+                                        Lidera una flota masiva con
+                                        gran respeto hacia Luffy.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <h3 class="py-5">Tripulaciones y piratas aliados</h3>
+                    <div class="row row-cols-1 row-cols-md-4 g-4">
+                        <div class="col">
+                            <div class="card h-100 p-3">
+                                <img src="https://i.pinimg.com/736x/d0/6d/3e/d06d3e19e6dcca8d7879ab3aed055584.jpg"
+                                    class="card-img-top" alt="Rayleigh"
+                                    style="height: 300px; width: auto; object-fit: cover;">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Silvers Rayleigh</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Ex-Vicecapitán de los Piratas de Roger
+                                    </h6>
+                                    <p class="card-text">El Rey Oscuro y antiguo compañero de Gol D. Roger. Mentor de
+                                        Luffy, le enseñó a
+                                        dominar el Haki durante el timeskip.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 p-3">
+                                <img src="https://i.pinimg.com/736x/0d/37/72/0d37723de28b9e152eab350ade942bed.jpg"
+                                    class="card-img-top" alt="Tripulacion Kuja"
+                                    style="height: 300px; width: auto; object-fit: cover;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Piratas Kuja</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Calm Belt</h6>
+                                    <p class="card-text">Tripulación liderada por Boa Hancock, la emperatriz amazona.
+                                        Fiel aliada de Luffy,
+                                        ofreció refugio y apoyo en múltiples ocasiones.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 p-3">
+                                <img src="https://i.pinimg.com/736x/ac/57/c8/ac57c83b67850dfded0609fcfcd80bf5.jpg"
+                                    class="card-img-top" alt="Trafalgar D. Water Law"
+                                    style="height: 300px; width: auto; object-fit: cover;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Trafalgar D. Water Law</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Capitán de los Piratas Heart</h6>
+                                    <p class="card-text">Un aliado estratégico clave en la derrota de Doflamingo y
+                                        Kaido. Su alianza con los
+                                        Mugiwara cambió el rumbo del Nuevo Mundo.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 p-3">
+                                <img src="https://i.pinimg.com/736x/6b/c9/ba/6bc9ba4034ef507589725ebbbd83d51b.jpg"
+                                    class="card-img-top" alt="Eustass Capitán Kid"
+                                    style="height: 300px; width: auto; object-fit: cover;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Eustass Kid</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Capitán de los Piratas Kid</h6>
+                                    <p class="card-text">Aunque inicialmente un rival, formó una alianza con Luffy y Law
+                                        para enfrentarse a
+                                        Kaido. Su actitud ruda contrasta con su espíritu combativo.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card h-100 p-3">
+                                <img src="https://i.pinimg.com/736x/75/56/48/755648cc379e9ae9917f91659513983b.jpg"
+                                    class="card-img-top" alt="Marco el fenix"
+                                    style="height: 300px; width: auto; object-fit: cover;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Marco el Fénix</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Ex-Comandante de los Piratas de
+                                        Barbablanca</h6>
+                                    <p class="card-text">Aliado durante la batalla en Wano. Su lealtad a la causa de
+                                        Barbablanca y sus
+                                        poderes mitológicos lo hacen un valioso aliado.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 p-3">
+                                <img src="https://i.pinimg.com/736x/92/c6/be/92c6be84ebf427bd4399258732b5c7ff.jpg"
+                                    class="card-img-top" alt="Piratas del Pelirrojo"
+                                    style="height: 300px; width: auto; object-fit: cover;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Shanks el Pelirrojo</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Capitán de los Piratas del Pelirrojo</h6>
+                                    <p class="card-text">El Yonko que inspiró a Luffy a convertirse en pirata. Aunque
+                                        rara vez interactúan
+                                        directamente, Shanks es un aliado implícito y protector de los Mugiwara.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                </div>
+
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p class="text-white text-center my-3">Información obtenida de la wiki oficial de One Piece. Todo el material es
+            propiedad de Eiichiro Oda.</p>
+    </footer>
+
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
