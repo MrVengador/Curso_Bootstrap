@@ -1,0 +1,52 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 18px 'Montserrat', sans-serif;
+}
+
+.Title_container
+{
+    /* padding: 10px 15px 10px 15px; */
+    align-items: center;
+}
+
+.Title_container i
+{
+    color: black;
+    font-size: 75px;
+    /* padding-right: 50px; */
+}
+
+.card
+{
+    min-height: 700px;
+}
+
+.card i
+{
+    color: black;
+    font-size: 25px;
+}
+
+h3
+{
+    /* padding: 10px 0px 10px 0px; */
+    font-weight: 500;
+}
+
+h4
+{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.card a
+{
+    float: end;
+}
