@@ -1,0 +1,15 @@
+.carousel-inner img
+{
+    object-fit: contain;
+    height: 600px;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+body
+{
+    background-image: url(https://image.api.playstation.com/vulcan/ap/rnd/202309/0620/3bef6a2dd8ce4552a75a5f06674f940d328fc9cf650dc47b.png);
+
+}
