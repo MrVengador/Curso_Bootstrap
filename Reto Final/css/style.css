@@ -1,0 +1,82 @@
+.poppins-thin
+{
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight
+{
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light
+{
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-light-italic
+{
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+body
+{
+    font-family: "Poppins", serif;
+    /* background-image: url("https://images.unsplash.com/photo-1590487988256-9ed24133863e?q=80&w=1928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
+}
+
+nav
+{
+    font-family: "Poppins", serif;
+}
+
+#Carrusel_Products
+{
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/spider-man-across-the-universe-1642374856.jpg");
+    background-size: cover;
+}
+
+#Description,
+#Especificaciones,
+#Experiencias,
+#Shops
+{
+    background-image: url("https://i.redd.it/new-spider-man-across-the-spider-verse-16-9-wallpapers-v0-xo8o2vb9tnhb1.png?width=3840&format=png&auto=webp&s=2e77ab67fb4d31f9beb366c90f9e2f2ed625dc4f");
+    background-size: cover;
+}
+
+
+.card-review
+{
+    max-width: 250px;
+    margin-inline: 20px;
+    margin-top: 40px;
+}
+
+
+.card-shop
+{
+    max-width: 200px;
+    margin-inline: 15px;
+    margin-top: 30px;
+}
+
+
+#Modal_Grafica
+{
+    background-image: url("https://i.redd.it/new-spider-man-across-the-spider-verse-16-9-wallpapers-v0-xo8o2vb9tnhb1.png?width=3840&format=png&auto=webp&s=2e77ab67fb4d31f9beb366c90f9e2f2ed625dc4f");
+    background-size: cover;
+}
+
+#main_shop
+{
+    background-image: url("https://www.jib.co.th/img_master/contents/original/20230424175702_1.jpg");
+    background-size: cover;
+}

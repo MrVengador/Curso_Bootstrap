@@ -1,0 +1,102 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container_Article_A
+{}
+
+.container_Article_B
+{}
+
+.container_A
+{}
+
+.container_A0
+{}
+
+.container_A0 h1
+{
+    opacity: 1;
+}
+
+.academic_Row
+{
+    align-items: center;
+    font-size: medium;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px 10px 20px 10px;
+}
+
+.academic_Row h3
+{
+    font-weight: bold;
+    padding-top: 10px;
+
+}
+
+.academic_Row h5
+{
+    font-weight: 300;
+    padding-bottom: 5px;
+    font-weight: italic;
+
+}
+
+.academic_Row p
+{
+    font-size: small;
+    /* text-align: justify; */
+}
+
+/* centrar */
+.master_Rows
+{
+    justify-content: center;
+}
+
+.master_Col
+{
+    margin: 15px;
+    /* text-align: justify; */
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.master_Col p
+{
+    margin-top: 10px;
+}
+
+.Hability_table
+{
+    align-items: center;
+    padding: 10px;
+}
+
+.Hability_item
+{
+    border: 1px solid black;
+    padding: 5px;
+    font-weight: 300;
+}
+
+h1
+{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+h2
+{
+    font-size: 20px;
+    font-weight: 600;
+}
